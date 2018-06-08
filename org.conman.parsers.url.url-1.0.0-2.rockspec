@@ -1,11 +1,11 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "org.conman.parsers.url.url"
-version = "1.0.0-1"
+version = "1.0.0-2"
 
 -- LuaDist source
 source = {
-  tag = "1.0.0-1",
+  tag = "1.0.0-2",
   url = "git://github.com/LuaDist-testing/org.conman.parsers.url.url.git"
 }
 -- Original source
@@ -31,6 +31,8 @@ dependencies =
 {
   "lua",
   "lpeg >= 1.0.1",
+  "org.conman.parsers.abnf >= 1.0.0",
+  "org.conman.parsers.ip-text >= 1.0.0",
 }
 
 build =
